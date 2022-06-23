@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+/* estilizações gerais */
+.title,
+h1 {
+    font-size: 3em;
+    margin: 30px;
+}
+
+.subtitle,
+h2,
+h3 {
+    font-size: 2em;
+    margin: 10px 0 30px;
+}
+
+.text-center,
+h1,
+h2 {
+    text-align: center;
+}
+
+.text-alert {
+    color: red;
+    font-weight: bold;
+}
+
+.text-content,
+p {
+    font-size: 1.4em;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    min-width: 320px;
+    margin-top: 175px;
+    background-color: whitesmoke;
+}
+
+main {
+    width: 80%;
+    margin: 100px auto;
+}
+
+
+/* inicio de header */
+.container-fluid {
+    width: 80%;
+}
+
+header nav {
+    background-color: whitesmoke;
+    border-bottom: 2px solid rgba(241, 32, 231, 0.2);
+    box-shadow: 0px -3px 5px 0px rgba(241, 32, 231, 0.2);
+    text-transform: uppercase;
+
+}
+
+
+/* inicio de home-news */
+main section article {
+    color: rgb(110, 110, 110);
+    margin: 20px 0;
+    padding: 10px 25px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+main section article h3 {
+    text-transform: uppercase;
+}
+
+.content-line {
+    border-bottom: 2px solid rgba(241, 32, 231, 0.2);
+    margin: 10px 0;
+}
+
+
+/* inicio de home-cards */
+.flexbox-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    margin: 15px 0;
+}
+
+footer img:hover,
+.card:hover {
+    transform: scale(1.1);
+}
+
+/* inicio de especialidades */
+.categorias-content img {
+    float: left;
+    margin-right: 20px;
+    min-width: 320px;
+    max-width: 600px;
+    margin-top: 8px;
+    box-shadow: 0px 0px 5px 0px rgba(241, 32, 231, 0.2);
+}
+
+/* inicio de especialidades-clínica geral */
+.categorias-content ul li {
+    list-style: none;
+}
+
+/* inicio de vacinação */
+.container-tabelas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+th {
+    text-transform: uppercase;
+    background: linear-gradient(90deg, rgba(233, 232, 255, 1) 0%, rgba(255, 246, 255, 1) 50%, rgba(233, 232, 255, 1) 100%)
+}
+
+td {
+    background-color: rgb(237, 240, 252);
+}
+
+/* inicio de banho e tosa */
+.form-container {
+    margin-top: 50px;
+}
+
+.form-container form {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(241, 32, 231, 0.2);
+}
+
+.form-container form label {
+    margin-top: 10px;
+}
+
+.form-container form button {
+    margin: 20px 0;
+}
+
+
+/* inicio de footer */
+footer {
+    margin-top: 20px;
+    padding-top: 10px;
+    min-width: 320px;
+    font-size: small;
+    background-color: rgba(241, 32, 231, 0.1);
+    box-shadow: 0px -3px 5px 0px rgba(241, 32, 231, 0.2);
+}
+
+.footer-social {
+    margin: 0 10px;
+    padding: 0 10px;
+}
+
+.footer-icon {
+    width: 32px;
+    height: auto;
+}
+
+.footer-location {
+    padding: 5px;
+}
+
+#footer-location-icon {
+    vertical-align: bottom;
+    margin-left: -10px;
+    margin-right: -5px;
+    height: 20px;
+    width: 20px;
+}
+
+.footer-copyright p {
+    color: white;
+    background-color: black;
+    padding: 20px 0 10px 0;
+    font-size: small;
+    text-align: center;
+    line-height: 0;
+    margin: 0;
+}
